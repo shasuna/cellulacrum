@@ -7,7 +7,7 @@ RSpec.describe Node do
   let(:y_dimension) { 2 }
   let(:node) { Node.new(0, 0, x_dimension, y_dimension) }
 
-  describe 'it exists' do
+  context 'initialization' do
     it 'exists' do
       expect(node).to be_a Node
     end
